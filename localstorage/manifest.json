@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "localstorage",
+  "description": "各スクリプト(contentscript、background、optionspage)で拡張用のローカルストレージにアクセス",
+  "version": "0.0",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentscript/main.js"],
+      "run_at":"document_end"
+    }
+  ],
+  "background": {
+    "scripts": [ "background/main.js" ]
+  },
+  "options_page": "optionspage/index.html"
+}
