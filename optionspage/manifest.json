@@ -1,0 +1,7 @@
+{
+  "manifest_version": 2,
+  "name": "optionspage",
+  "description": "オプションページ",
+  "version": "0.0",
+  "options_page": "options.html"
+}
