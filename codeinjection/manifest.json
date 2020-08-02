@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "codeinjection",
+  "description": "JavaScriptやCSSをページに埋め込む",
+  "version": "0.0",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentscript.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": ["injectscript.js", "injectstyle.css"]
+}
