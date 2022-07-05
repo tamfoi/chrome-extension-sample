@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "minimum",
   "description": "最小構成",
   "version": "0.0"
