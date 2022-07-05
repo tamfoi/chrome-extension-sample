@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "contentscript",
   "description": "コンテンツスクリプト、ページ(タブ)が開かれた時に走る",
   "version": "0.0",
